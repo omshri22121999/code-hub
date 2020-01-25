@@ -13,30 +13,23 @@ struct Fighter
         int b_loss = -(b.DF - a.AT);
         if (a_loss <= 0 && b_loss > 0)
         {
-            // cout << a.name + " is better" + '\n';
             a.weaker.push_back(&b);
         }
         if (a_loss > 0 && b_loss <= 0)
         {
-            // cout << b.name + " is better" + '\n';
             b.weaker.push_back(&a);
         }
         if (a_loss > 0 && b_loss > 0)
         {
             int rounds_a = ceil(float(a.HP) / a_loss);
             int rounds_b = ceil(float(b.HP) / b_loss);
-            // cout << a.name + " HP " << a.HP << " " << b.name + " HP " << b.HP << '\n';
-            // cout << a.name + " Loss " << a_loss << " " << b.name + " Loss " << b_loss << '\n';
-            // cout << a.name + " Rounds " << rounds_a << " " << b.name + " Rounds " << rounds_b << '\n';
             if (rounds_a > rounds_b)
             {
                 a.weaker.push_back(&b);
-                // cout << a.name + " is better" + '\n';
             }
             else if (rounds_b > rounds_a)
             {
                 b.weaker.push_back(&a);
-                // cout << b.name + " is better" + '\n';
             }
         }
     }
@@ -81,7 +74,6 @@ public:
         {
             if ((*i)->weaker.size() > 0)
             {
-                // cout << "Checking " + (*i)->name << endl;
                 for (vector<Fighter *>::iterator j = (*i)->weaker.begin(); j < (*i)->weaker.end(); j++)
                 {
                     if ((*j)->weaker.size() > 0)
@@ -99,37 +91,12 @@ public:
                                         {
                                             ans.push_back((*i)->name + ' ' + (*j)->name + ' ' + (*k)->name);
                                         }
-                                        else
-                                        {
-                                            // cout << "Traingle not Formed!";
-                                        }
                                     }
-                                    else
-                                    {
-                                        // cout << "Already Visited C: " + (*k)->name << endl;
-                                    }
-                                }
-                                else
-                                {
-                                    // cout << "Size Problem in C: " + (*k)->name << endl;
                                 }
                             }
                         }
-                        else
-                        {
-                            // cout << "Already Visited B: " + (*j)->name << endl;
-                        }
-                    }
-
-                    else
-                    {
-                        // cout << "Size Problem in B: " + (*j)->name << endl;
                     }
                 }
-            }
-            else
-            {
-                // cout << "Size problem in A: " + (*i)->name << endl;
             }
             visited.push_back((*i));
         }
@@ -165,8 +132,5 @@ int main(void)
     }
 
     fgraph.set_weaker();
-
-    // fgraph.print_fighters();
-
     fgraph.check_triplets();
 }
