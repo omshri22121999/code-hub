@@ -20,13 +20,11 @@ For each test case, output an integer corresponding to the maximum number of ite
 
 ### Constraints
 
-```
 - 1≤T≤10
 - 1≤N≤25,000
 - 1≤|wi|≤5 for each valid i
 - 0≤si≤1 for each valid i
 - w1,w2,…,wN contain only lowercase English letters
-```
 
 ### Example Input
 
