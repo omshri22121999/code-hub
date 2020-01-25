@@ -1,3 +1,7 @@
+//Abnormal Words
+//Done By : Om Shri Prasath
+//Date : 24 Jan 2020
+
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
