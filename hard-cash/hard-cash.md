@@ -1,4 +1,4 @@
-## Select Training Set
+## Hard Cash
 
 Chef wants to take Chefina on a date. However, he has to complete one more task before leaving. Since he does not want to be late, he is asking you for help.
 

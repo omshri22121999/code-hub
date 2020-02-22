@@ -1,4 +1,4 @@
-## Select Training Set
+## School Of Geometry
 
 Once again, we have a lot of requests from coders for a challenging problem on geometry. Geometry expert Nitin is thinking about a problem with parabolas, icosahedrons, crescents and trapezoids, but for now, to encourage beginners, he chooses to work with circles and rectangles.
 

@@ -1,4 +1,4 @@
-## Select Training Set
+## Plus Multiply
 
 Chef has a sequence A1,A2,…,AN. He needs to find the number of pairs (i,j) (1≤i<j≤N) such that Ai+Aj=Ai⋅Aj. However, he is busy, so he asks for your help.
 

@@ -1,4 +1,4 @@
-## Select Training Set
+## Bob And His Friends
 
 Alice just invited Bob to come over for dinner at her place. Bob is not dressed properly and he does not wish to take any chances, so he wants to rush to an apartment of one of his N friends, change there and meet Alice for the dinner.
 
