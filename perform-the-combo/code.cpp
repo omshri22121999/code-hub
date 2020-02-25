@@ -1,11 +1,7 @@
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
-ll glob = 0;
-bool isLess(ll i)
-{
-    return i > glob;
-}
+
 int main(void)
 {
     ifstream cin("input.txt");
@@ -31,14 +27,12 @@ int main(void)
             cin >> z;
             p.push_back(z);
         }
-        p.push_back(s.size());
         sort(p.begin(), p.end());
         for (ll i = 0; i < s.size(); i++)
         {
-            auto z = lower_bound(p.begin(), p.end(), i);
-            cout << s[i] << ' : ' << z - p.begin() << endl;
+            auto z = lower_bound(p.begin(), p.end(), i + 1);
 
-            ans[s[i] - 'a'] += z - p.begin();
+            ans[s[i] - 'a'] += p.end() - z + 1;
         }
         for (auto i : ans)
         {
