@@ -16,25 +16,32 @@ int main(void)
     while (t--)
     {
         ll n;
-        vector<ll> k;
-        map<int, int> m;
+        vector<ll> a;
+
         cin >> n;
+        vector<ll> ans(n, 0);
         while (n--)
         {
             ll z;
             cin >> z;
-            k.push_back(z);
-            m[z] = 1;
+            a.push_back(z);
         }
-        for (auto i : k)
+
+        for (ll i = 0; i < a.size(); i++)
         {
-            ll z = 0, p = i;
-            while (m[p] == 1)
+            ans[i] = 1;
+            for (ll j = i - 1; j >= 0; j--)
             {
-                z++;
-                p--;
+                if (a[j] == a[i] - 1)
+                {
+                    ans[i] += ans[j];
+                    break;
+                }
             }
-            cout << z << ' ';
+        }
+        for (auto k : ans)
+        {
+            cout << k << ' ';
         }
         cout << endl;
     }
