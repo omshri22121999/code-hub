@@ -12,13 +12,6 @@ You are given an integer sequence A with length N. In one move, you are allowed 
 
 For each test case, print a single line containing one integer — the minimum required number of moves.
 
-### Constraints
-
-- 1≤T≤100
-- 1≤N≤105
-- The sum of N for all test cases does not exceed 2⋅105
-- 1≤Ai≤109 for each valid i
-
 ### Example Input
 
 ```

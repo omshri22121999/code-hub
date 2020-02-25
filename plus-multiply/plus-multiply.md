@@ -12,12 +12,6 @@ Chef has a sequence A1,A2,…,AN. He needs to find the number of pairs (i,j) (1�
 
 For each test case, print a single line containing one integer ― the desired number of pairs.
 
-### Constraints
-
-- 1≤T≤20
-- 1≤N≤40,000
-- 0≤Ai≤109 for each valid i
-
 ### Example Input
 
 ```

@@ -15,11 +15,6 @@ You have to determine if Mr. Pr can meet with Ms. Ad after some integral amount 
 
 For each test case, output a single line containing "YES" if Mr. Pr meets with Ms. Ad, otherwise "NO".
 
-### Constraints
-
-- 1≤T≤105
-- 1≤a,b,c,d≤109
-
 ### Example Input
 
 ```

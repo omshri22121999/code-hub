@@ -17,11 +17,6 @@ A palindromic string is defined as a string which is equal to it's reverse. It c
 
 For each test case, print a single line containing one string ― the answer, “YES” or “NO”. Note that the judge is case sensitive.
 
-### Constraints
-
-- 1≤T≤10
-- 1≤N≤106
-
 ### Example Input
 
 ```

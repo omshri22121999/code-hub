@@ -16,12 +16,6 @@ Chef wants to maximise his daily profit. Help Chef choose which type of food to 
 
 For each test case, print a single line containing one integer ― the maximum profit.
 
-### Constraints
-
-- 1≤T≤100
-- 1≤N≤100
-- 1≤Si,Vi,Pi≤10,000 for each valid i
-
 ### Example Input
 
 ```

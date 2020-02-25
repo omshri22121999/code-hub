@@ -16,13 +16,6 @@ You know the results of all submissions you made. Calculate your total score.
 
 For each test case, print a single line containing one integer ― your total score.
 
-### Constraints
-
-- 1≤T≤10
-- 1≤N≤1,000
-- 1≤pi≤11 for each valid i
-- 0≤si≤100 for each valid i
-
 ### Example Input
 
 ```

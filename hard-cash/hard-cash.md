@@ -20,14 +20,6 @@ Of course, the number of coins placed in the last N−c bags must not exceed the
 
 For each test case, print a single line containing one integer ― the smallest value of R.
 
-### Constraints
-
-- 1≤T≤103
-- 1≤N≤105
-- 0≤Ai≤109 for each valid i
-- 1≤K≤109
-- the sum of N over all test cases does not exceed 105
-
 ### Example Input
 
 ```

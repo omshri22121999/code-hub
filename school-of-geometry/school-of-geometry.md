@@ -17,12 +17,6 @@ Let S be the sum of diameters of these N circles. Your task is to find the maxim
 
 For each test case, print a single line containing one integer ― the maximum value of S. It is guaranteed that this value is always an integer.
 
-### Constraints
-
-- 1≤T≤50
-- 1≤N≤104
-- 1≤Ai,Bi≤109 for each valid i
-
 ### Example Input
 
 ```

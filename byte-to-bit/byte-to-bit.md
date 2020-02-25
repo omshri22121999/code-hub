@@ -18,10 +18,6 @@ Help him and find the population (number of citizens) of each type.
 
 For each test case, print a single line containing three space-separated integers — the number of Bits, Nibbles and Bytes.
 
-### Constraints
-
-- 1≤T≤104
-- 1≤N≤1,600
 
 ### Example Input
 

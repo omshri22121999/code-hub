@@ -13,12 +13,6 @@ You are given an integer n. Print two composite integers a and b such that a+b=n
 - If there are multiple answers, you may print any.
 - If there are no possible answers, print −1.
 
-### Constraints
-
-- 1≤T≤1000
-- 1≤n≤1000
-- The sum of values of n over all T does not exceed 105
-
 ### Example Input
 
 ```

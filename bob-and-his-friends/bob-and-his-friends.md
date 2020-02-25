@@ -16,13 +16,6 @@ Bob needs exactly c minutes to change in any of his friends' apartments. Find th
 
 Print a single line containing one integer ― the minimum time Bob needs.
 
-### Constraints
-
-- 1≤T≤10
-- 1≤N≤105
-- 1≤a,b,c≤109
-- 1≤Fi≤109 for each valid i
-
 ### Example Input
 
 ```

@@ -22,13 +22,6 @@ For each test case, print a single line containing one integer ― the maximum p
 
 Finally, print a line containing one integer ― the total profit over all test cases, i.e. over T days.
 
-### Constraints
-
-- 1≤T≤150
-- 0≤N≤100
-- m is 'A', 'B', 'C' or 'D'
-- t is 12, 3, 6 or 9
-
 ### Example Input
 
 ```
