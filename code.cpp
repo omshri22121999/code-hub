@@ -1,6 +1,17 @@
 #include <bits/stdc++.h>
-#define ll long long
+#define fi first
+#define ss second
+#define pb push_back
+#define mp make_pair
+#define loop_f(i, a, b) for (auto i = a; i < b; i++)
+#define loop_b(j, a, b) for (auto j = a; j >= b; j--)
+
 using namespace std;
+
+typedef long long ll;
+typedef vector<long long> vl;
+typedef set<long long> sl;
+typedef pair<int, int> pi;
 
 int main(void)
 {
