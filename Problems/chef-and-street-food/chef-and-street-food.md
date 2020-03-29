@@ -1,4 +1,4 @@
-## Chef And Street Food
+# Chef And Street Food
 
 In Chefland, there is a very famous street where N types of street food (numbered 1 through N) are offered. For each valid i, there are Si stores that offer food of the i-th type, the price of one piece of food of this type is Vi (the same in each of these stores) and each day, Pi people come to buy it; each of these people wants to buy one piece of food of the i-th type.
 
@@ -6,17 +6,17 @@ Chef is planning to open a new store at this street, where he would offer food o
 
 Chef wants to maximise his daily profit. Help Chef choose which type of food to offer and find the maximum daily profit he can make.
 
-### Input
+## Input
 
 - The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
 - The first line of each test case contains a single integer N.
 - N lines follow. For each i (1≤i≤N), the i-th of these lines contains three space-separated integers Si, Pi and Vi.
 
-### Output
+## Output
 
 For each test case, print a single line containing one integer ― the maximum profit.
 
-### Example Input
+## Example Input
 
 ```
 2
@@ -28,7 +28,7 @@ For each test case, print a single line containing one integer ― the maximum p
 7 7 4
 ```
 
-### Example Output
+## Example Output
 
 ```
 12

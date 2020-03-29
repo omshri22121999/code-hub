@@ -1,4 +1,4 @@
-## Weird Sort
+# Weird Sort
 
 You are given an array 𝑎 of length 𝑛.
 
@@ -12,17 +12,17 @@ You can see that if 𝑎=[4,1,2,3] and 𝑝=[3,2] then you cannot sort the array
 
 You have to answer 𝑡 independent test cases.
 
-## Input
+# Input
 
 The first line of the input contains one integer 𝑡 (1≤𝑡≤100) — the number of test cases.
 
 Then 𝑡 test cases follow. The first line of each test case contains two integers 𝑛 and 𝑚 (1≤𝑚<𝑛≤100) — the number of elements in 𝑎 and the number of elements in 𝑝. The second line of the test case contains 𝑛 integers 𝑎1,𝑎2,…,𝑎𝑛 (1≤𝑎𝑖≤100). The third line of the test case contains 𝑚 integers 𝑝1,𝑝2,…,𝑝𝑚 (1≤𝑝𝑖<𝑛, all 𝑝𝑖 are distinct) — the set of positions described in the problem statement.
 
-## Output
+# Output
 
 For each test case, print the answer — "YES" (without quotes) if you can sort the initial array in non-decreasing order (𝑎1≤𝑎2≤⋯≤𝑎𝑛) using only allowed swaps. Otherwise, print "NO".
 
-### Example Input
+## Example Input
 
 ```
 6
@@ -46,7 +46,7 @@ For each test case, print the answer — "YES" (without quotes) if you can sort 
 1 4
 ```
 
-### Example Output
+## Example Output
 
 ```
 YES

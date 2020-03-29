@@ -1,4 +1,4 @@
-## The Theatre Problem
+# The Theatre Problem
 
 Chef's friend Alex runs a movie theatre. Due to the increasing number of platforms for watching movies online, his business is not running well. As a friend, Alex asked Chef to help him maximise his profits. Since Chef is a busy person, he needs your help to support his friend Alex.
 
@@ -10,19 +10,19 @@ It is not necessary to accommodate everyone's requests ― Alex just wants to ea
 
 You are given N requests Alex received during one day. Find the maximum amount of money he can earn on that day by choosing when to play which movies and with which prices.
 
-### Input
+## Input
 
 - The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
 - The first line of each test case contains a single integer N.
 - N lines follow. Each of these lines contains a character m, followed by a space and an integer t, describing a request to see the movie m at the showtime t.
 
-### Output
+## Output
 
 For each test case, print a single line containing one integer ― the maximum profit Alex can earn (possibly negative).
 
 Finally, print a line containing one integer ― the total profit over all test cases, i.e. over T days.
 
-### Example Input
+## Example Input
 
 ```
 5
@@ -55,7 +55,7 @@ D 12
 0
 ```
 
-### Example Output
+## Example Output
 
 ```
 75

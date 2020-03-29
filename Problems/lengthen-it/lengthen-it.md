@@ -1,4 +1,4 @@
-## example-q
+# Lengthen It
 
 A sequence of numbers is called a good sequence if it forms an increasing consecutive sequence of integers. For eg, [5], [−3,−2,−1] and [9,10,11] are good sequences whereas [2,4], [3,2,1] and [5,7,6] don’t form good sequences.
 
@@ -8,17 +8,17 @@ Given an array A of size n, a good subsequence of the array is a subsequence tha
 
 For every element of a given array, find out the length of the longest good subsequence that ends in that element.
 
-### Input
+## Input
 
 - The first line contains the number of test cases T.
 - Each test case has two lines. The first line contains a single number n, the size of the array.
 - The second line contains n integers where the ith number represents ai.
 
-### Output
+## Output
 
 For each test case, in a new line print n numbers, where the ith number is the length of the longest good subsequence that ends in ai.
 
-### Example Input
+## Example Input
 
 ```
 1
@@ -26,7 +26,7 @@ For each test case, in a new line print n numbers, where the ith number is the l
 -3 -2 5 -1 6
 ```
 
-### Example Output
+## Example Output
 
 ```
 1 2 1 3 2

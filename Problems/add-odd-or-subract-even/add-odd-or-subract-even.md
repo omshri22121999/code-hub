@@ -1,4 +1,4 @@
-## Add Odd Or Subract Even
+# Add Odd Or Subract Even
 
 You are given two positive integers 𝑎 and 𝑏.
 

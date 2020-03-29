@@ -1,30 +1,34 @@
-## Maximize LCM
+# Maximize LCM
 
-You are given an integer sequence A with length N. In one move, you are allowed to choose one element of this sequence and change it to an arbitrary integer. Compute the minimum number of moves needed to make the sequence a permutation of the integers 1 through N.
+Chef is becoming bored with the recent lockdown caused by the coronavirus outbreak. To pass some time, he has started learning cryptography. He is very excited to see different types of keys used in cryptography and decided to invent a new type of a key.
 
-### Input
+First, Chef made a sequence of integers A1,A2,…,AN, which lie between 1 and M inclusive. After a lot of sleepless nights, he has decided that his key will be the LCM of this sequence, but he is not satisfied ― he wants to make his key as large as possible. In order to do that, he wants to append exactly one more integer to the sequence. This integer must also lie between 1 and M inclusive.
+
+Help Chef maximise the key. Find the integer which Chef should append to the sequence in order to make the key (the LCM of elements of the resulting sequence) as large as possible. If there are multiple solutions, choose the smallest among the integers to append which maximise the LCM.
+
+## Input
 
 - The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
-- The first line of each test case contains a single integer N.
+- The first line of each test case contains two space-separated integers N and M.
 - The second line contains N space-separated integers A1,A2,…,AN.
 
-### Output
+## Output
 
-For each test case, print a single line containing one integer — the minimum required number of moves.
+For each test case, print a single line containing one integer ― the smallest value of the new element which maximises the LCM.
 
-### Example Input
+## Example Input
 
 ```
 2
-4
-1 2 3 3
-3
-2 6 2
+3 2
+2 1 2
+4 7
+2 5 6 3
 ```
 
-### Example Output
+## Example Output
 
 ```
 1
-2
+7
 ```

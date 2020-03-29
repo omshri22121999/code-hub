@@ -1,4 +1,4 @@
-## Perform The Combo
+# Perform The Combo
 
 You want to perform the combo on your opponent in one popular fighting game. The combo is the string 𝑠 consisting of 𝑛 lowercase Latin letters. To perform the combo, you have to press all buttons in the order they appear in 𝑠. I.e. if 𝑠="abca" then you have to press 'a', then 'b', 'c' and 'a' again.
 
@@ -10,7 +10,7 @@ Your task is to calculate for each button (letter) the number of times you'll pr
 
 You have to answer 𝑡 independent test cases.
 
-## Input
+# Input
 
 The first line of the input contains one integer 𝑡 (1≤𝑡≤104) — the number of test cases.
 
@@ -24,11 +24,11 @@ The third line of each test case contains 𝑚 integers 𝑝1,𝑝2,…,𝑝𝑚
 
 It is guaranteed that the sum of 𝑛 and the sum of 𝑚 both does not exceed 2⋅105 (∑𝑛≤2⋅105, ∑𝑚≤2⋅105).
 
-## Output
+# Output
 
 For each test case, print the answer — 26 integers: the number of times you press the button 'a', the number of times you press the button 'b', …, the number of times you press the button 'z'.
 
-### Example Input
+## Example Input
 
 ```
 3
@@ -43,7 +43,7 @@ qwertyuioplkjhgfdsazxcvbnm
 20 10 1 2 3 5 10 5 9 4
 ```
 
-### Example Output
+## Example Output
 
 ```
 4 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

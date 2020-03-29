@@ -1,4 +1,4 @@
-## Byte To Bit
+# Byte To Bit
 
 In the magical land of Byteland, there are three kinds of citizens:
 
@@ -9,17 +9,17 @@ Chef wants to know the answer to the following question: what would the populati
 
 Help him and find the population (number of citizens) of each type.
 
-### Input
+## Input
 
 - The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
 - The first and only line of each test case contains a single integer N.
 
-### Output
+## Output
 
 For each test case, print a single line containing three space-separated integers — the number of Bits, Nibbles and Bytes.
 
 
-### Example Input
+## Example Input
 
 ```
 2
@@ -27,7 +27,7 @@ For each test case, print a single line containing three space-separated integer
 3
 ```
 
-### Example Output
+## Example Output
 
 ```
 1 0 0

@@ -1,4 +1,4 @@
-## School Of Geometry
+# School Of Geometry
 
 Once again, we have a lot of requests from coders for a challenging problem on geometry. Geometry expert Nitin is thinking about a problem with parabolas, icosahedrons, crescents and trapezoids, but for now, to encourage beginners, he chooses to work with circles and rectangles.
 
@@ -6,18 +6,18 @@ You are given two sequences A1,A2,…,AN and B1,B2,…,BN. You should choose a p
 
 Let S be the sum of diameters of these N circles. Your task is to find the maximum value of S.
 
-### Input
+## Input
 
 - The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
 - The first line of each test case contains a single integer N.
 - The second line contains N space-separated integers A1,A2,…,AN.
 - The third line contains N space-separated integers B1,B2,…,BN.
 
-### Output
+## Output
 
 For each test case, print a single line containing one integer ― the maximum value of S. It is guaranteed that this value is always an integer.
 
-### Example Input
+## Example Input
 
 ```
 2
@@ -29,7 +29,7 @@ For each test case, print a single line containing one integer ― the maximum v
 10 10 10
 ```
 
-### Example Output
+## Example Output
 
 ```
 30

@@ -1,19 +1,19 @@
-## Sum It
+# Sum It
 
 You are given an integer n. Print two composite integers a and b such that a+b=n.
 
-### Input
+## Input
 
 - First line will contain T, number of test cases. Then the test cases follow.
 - Each test case contains of a single line of input, one integer n.
 
-### Output
+## Output
 
 - For each test case, output in a single line two integers a and b.
 - If there are multiple answers, you may print any.
 - If there are no possible answers, print −1.
 
-### Example Input
+## Example Input
 
 ```
 3
@@ -22,7 +22,7 @@ You are given an integer n. Print two composite integers a and b such that a+b=n
 1
 ```
 
-### Example Output
+## Example Output
 
 ```
 12 8

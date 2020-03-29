@@ -1,4 +1,4 @@
-## Select Training Set
+# Select Training Set
 
 All submissions for this problem are available.You are given a dataset consisting of N items. Each item is a pair of a word and a boolean denoting whether the given word is a spam word or not.
 
@@ -8,17 +8,17 @@ Your task is to select the maximum number of items in the training set.
 
 Note that same pair of {word, bool} can appear multiple times in input. The training set can also contain the same pair multiple times.
 
-### Input
+## Input
 
 - First line will contain T, number of test cases. Then the test cases follow.
 - The first line of each test case contains a single integer N.
 - N lines follow. For each valid i, the i-th of these lines contains a string wi, followed by a space and an integer(boolean) si, denoting the i-th item.
 
-### Output
+## Output
 
 For each test case, output an integer corresponding to the maximum number of items that can be included in the training set in a single line.
 
-### Example Input
+## Example Input
 
 ```
 3
@@ -42,7 +42,7 @@ vv 1
 vv 1
 ```
 
-### Example Output
+## Example Output
 
 ```
 2
