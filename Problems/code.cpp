@@ -2,8 +2,6 @@
 using namespace std;
 
 typedef long long ll;
-typedef vector<long long> vl;
-typedef list<long long> lil;
 
 int main(void)
 {
