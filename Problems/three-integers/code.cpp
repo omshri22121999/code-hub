@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+typedef long long ll;
+
+int main(void)
+{
+
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    ifstream cin("input.txt");
+    std::cin.rdbuf(cin.rdbuf());
+    ofstream cout("output.txt");
+    std::cout.rdbuf(cout.rdbuf());
+
+    ll t;
+    cin >> t;
+    while (t--)
+    {
+        int a, b, c;
+        cin >> a >> b >> c;
+        int ans = 1e9;
+        int A = -1, B = -1, C = -1;
+        for (int cA = 1; cA <= 2 * a; ++cA)
+        {
+            for (int cB = cA; cB <= 2 * b; cB += cA)
+            {
+                for (int i = 0; i < 2; ++i)
+                {
+                    int cC = cB * (c / cB) + i * cB;
+                    int res = abs(cA - a) + abs(cB - b) + abs(cC - c);
+                    if (ans > res)
+                    {
+                        ans = res;
+                        A = cA;
+                        B = cB;
+                        C = cC;
+                    }
+                }
+            }
+        }
+        cout << ans << endl
+             << A << " " << B << " " << C << endl;
+    }
+    return 0;
+}

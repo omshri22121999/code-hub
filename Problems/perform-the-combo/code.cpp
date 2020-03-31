@@ -35,7 +35,6 @@ int main(void)
         }
         for (auto i : ans)
         {
-
             cout << i << ' ';
         }
         cout << "\n";

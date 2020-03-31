@@ -5,9 +5,10 @@ typedef long long ll;
 
 int main(void)
 {
-    ifstream cin("input.txt");
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
+
+    ifstream cin("input.txt");
     std::cin.rdbuf(cin.rdbuf());
     ofstream cout("output.txt");
     std::cout.rdbuf(cout.rdbuf());
