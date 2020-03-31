@@ -16,7 +16,6 @@ int main(void)
     while (t--)
     {
         vector<ll> ans(26, 0), p;
-        map<char, vector<ll>> pos;
         string s;
         ll n, m;
         cin >> n >> m;
