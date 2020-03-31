@@ -1,0 +1,436 @@
+Factorization of 2
+
+2 ^ 1
+Factorization of 3
+
+3 ^ 1
+Factorization of 4
+
+2 ^ 2
+Factorization of 5
+
+5 ^ 1
+Factorization of 6
+
+2 ^ 1
+
+3 ^ 1
+Factorization of 7
+
+7 ^ 1
+Factorization of 8
+
+2 ^ 3
+Factorization of 9
+
+3 ^ 2
+Factorization of 10
+
+2 ^ 1
+
+5 ^ 1
+Factorization of 11
+
+11 ^ 1
+Factorization of 12
+
+2 ^ 2
+
+3 ^ 1
+Factorization of 13
+
+13 ^ 1
+Factorization of 14
+
+2 ^ 1
+
+7 ^ 1
+Factorization of 15
+
+3 ^ 1
+
+5 ^ 1
+Factorization of 16
+
+2 ^ 4
+Factorization of 17
+
+17 ^ 1
+Factorization of 18
+
+2 ^ 1
+
+3 ^ 2
+Factorization of 19
+
+19 ^ 1
+Factorization of 20
+
+2 ^ 2
+
+5 ^ 1
+Factorization of 21
+
+3 ^ 1
+
+7 ^ 1
+Factorization of 22
+
+2 ^ 1
+
+11 ^ 1
+Factorization of 23
+
+23 ^ 1
+Factorization of 24
+
+2 ^ 3
+
+3 ^ 1
+Factorization of 25
+
+5 ^ 2
+Factorization of 26
+
+2 ^ 1
+
+13 ^ 1
+Factorization of 27
+
+3 ^ 3
+Factorization of 28
+
+2 ^ 2
+
+7 ^ 1
+Factorization of 29
+
+29 ^ 1
+Factorization of 30
+
+2 ^ 1
+
+3 ^ 1
+
+5 ^ 1
+Factorization of 31
+
+31 ^ 1
+Factorization of 32
+
+2 ^ 5
+Factorization of 33
+
+3 ^ 1
+
+11 ^ 1
+Factorization of 34
+
+2 ^ 1
+
+17 ^ 1
+Factorization of 35
+
+5 ^ 1
+
+7 ^ 1
+Factorization of 36
+
+2 ^ 2
+
+3 ^ 2
+Factorization of 37
+
+37 ^ 1
+Factorization of 38
+
+2 ^ 1
+
+19 ^ 1
+Factorization of 39
+
+3 ^ 1
+
+13 ^ 1
+Factorization of 40
+
+2 ^ 3
+
+5 ^ 1
+Factorization of 41
+
+41 ^ 1
+Factorization of 42
+
+2 ^ 1
+
+3 ^ 1
+
+7 ^ 1
+Factorization of 43
+
+43 ^ 1
+Factorization of 44
+
+2 ^ 2
+
+11 ^ 1
+Factorization of 45
+
+3 ^ 2
+
+5 ^ 1
+Factorization of 46
+
+2 ^ 1
+
+23 ^ 1
+Factorization of 47
+
+47 ^ 1
+Factorization of 48
+
+2 ^ 4
+
+3 ^ 1
+Factorization of 49
+
+7 ^ 2
+Factorization of 50
+
+2 ^ 1
+
+5 ^ 2
+Factorization of 51
+
+3 ^ 1
+
+17 ^ 1
+Factorization of 52
+
+2 ^ 2
+
+13 ^ 1
+Factorization of 53
+
+53 ^ 1
+Factorization of 54
+
+2 ^ 1
+
+3 ^ 3
+Factorization of 55
+
+5 ^ 1
+
+11 ^ 1
+Factorization of 56
+
+2 ^ 3
+
+7 ^ 1
+Factorization of 57
+
+3 ^ 1
+
+19 ^ 1
+Factorization of 58
+
+2 ^ 1
+
+29 ^ 1
+Factorization of 59
+
+59 ^ 1
+Factorization of 60
+
+2 ^ 2
+
+3 ^ 1
+
+5 ^ 1
+Factorization of 61
+
+61 ^ 1
+Factorization of 62
+
+2 ^ 1
+
+31 ^ 1
+Factorization of 63
+
+3 ^ 2
+
+7 ^ 1
+Factorization of 64
+
+2 ^ 6
+Factorization of 65
+
+5 ^ 1
+
+13 ^ 1
+Factorization of 66
+
+2 ^ 1
+
+3 ^ 1
+
+11 ^ 1
+Factorization of 67
+
+67 ^ 1
+Factorization of 68
+
+2 ^ 2
+
+17 ^ 1
+Factorization of 69
+
+3 ^ 1
+
+23 ^ 1
+Factorization of 70
+
+2 ^ 1
+
+5 ^ 1
+
+7 ^ 1
+Factorization of 71
+
+71 ^ 1
+Factorization of 72
+
+2 ^ 3
+
+3 ^ 2
+Factorization of 73
+
+73 ^ 1
+Factorization of 74
+
+2 ^ 1
+
+37 ^ 1
+Factorization of 75
+
+3 ^ 1
+
+5 ^ 2
+Factorization of 76
+
+2 ^ 2
+
+19 ^ 1
+Factorization of 77
+
+7 ^ 1
+
+11 ^ 1
+Factorization of 78
+
+2 ^ 1
+
+3 ^ 1
+
+13 ^ 1
+Factorization of 79
+
+79 ^ 1
+Factorization of 80
+
+2 ^ 4
+
+5 ^ 1
+Factorization of 81
+
+3 ^ 4
+Factorization of 82
+
+2 ^ 1
+
+41 ^ 1
+Factorization of 83
+
+83 ^ 1
+Factorization of 84
+
+2 ^ 2
+
+3 ^ 1
+
+7 ^ 1
+Factorization of 85
+
+5 ^ 1
+
+17 ^ 1
+Factorization of 86
+
+2 ^ 1
+
+43 ^ 1
+Factorization of 87
+
+3 ^ 1
+
+29 ^ 1
+Factorization of 88
+
+2 ^ 3
+
+11 ^ 1
+Factorization of 89
+
+89 ^ 1
+Factorization of 90
+
+2 ^ 1
+
+3 ^ 2
+
+5 ^ 1
+Factorization of 91
+
+7 ^ 1
+
+13 ^ 1
+Factorization of 92
+
+2 ^ 2
+
+23 ^ 1
+Factorization of 93
+
+3 ^ 1
+
+31 ^ 1
+Factorization of 94
+
+2 ^ 1
+
+47 ^ 1
+Factorization of 95
+
+5 ^ 1
+
+19 ^ 1
+Factorization of 96
+
+2 ^ 5
+
+3 ^ 1
+Factorization of 97
+
+97 ^ 1
+Factorization of 98
+
+2 ^ 1
+
+7 ^ 2
+Factorization of 99
+
+3 ^ 2
+
+11 ^ 1
