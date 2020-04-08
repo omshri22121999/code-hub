@@ -16,7 +16,7 @@ Each of the characters '#' in the string L should be replaced by one of the char
   - If G0=0 and G1=1, the value of the expression is 'a'.
   - If G0=1 and G1=0, the value of the expression is 'A'.
 
-Can you find the probabilities with which the expression obtained after substituting for each character '#' evaluates to these values? It can be proved that for each of these values, the probability can be expressed as a fraction P/Q, where P and Q are integers (P≥0, Q>0) and Q is coprime with 998,244,353. You should compute P⋅Q−1 modulo 998,244,353 for each of these values.
+Can you find the probabilities with which the expression obtained after substituting for each character '#' evaluates to these values? It can be proved that for each of these values, the probability can be expressed as a fraction P/Q, where P and Q are integers (P≥0, Q>0) and Q is coprime with 998,244,353. You should compute P⋅Q^−1 modulo 998,244,353 for each of these values.
 
 ## Input
 
