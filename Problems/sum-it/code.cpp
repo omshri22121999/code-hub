@@ -8,9 +8,6 @@ int main(void)
     ofstream cout("output.txt");
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    std::cin.rdbuf(cin.rdbuf());
-    std::cout.rdbuf(cout.rdbuf());
-
     ll t;
     vector<ll> ch{1, 2, 3, 4, 5, 6, 7, 9, 11};
     cin >> t;

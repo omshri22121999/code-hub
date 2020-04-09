@@ -40,7 +40,6 @@ struct node
 class tree
 {
     node *root;
-    
 };
 
 int main(void)
@@ -49,9 +48,7 @@ int main(void)
     cin.tie(NULL);
 
     ifstream cin("input.txt");
-    std::cin.rdbuf(cin.rdbuf());
     ofstream cout("output.txt");
-    std::cout.rdbuf(cout.rdbuf());
 
     ll t;
     cin >> t;
@@ -59,7 +56,7 @@ int main(void)
     {
         string exp;
         cin >> exp;
-        if (k.size() == 1)
+        if (exp.size() == 1)
         {
             cout << "748683265 748683265 748683265 748683265\n";
         }
@@ -71,6 +68,8 @@ int main(void)
             for (auto i : exp)
             {
                 if (i == '(')
+                {
+                }
             }
         }
     }

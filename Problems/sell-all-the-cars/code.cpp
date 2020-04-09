@@ -11,10 +11,7 @@ int main(void)
     cin.tie(NULL);
 
     ifstream cin("input.txt");
-    std::cin.rdbuf(cin.rdbuf());
     ofstream cout("output.txt");
-    std::cout.rdbuf(cout.rdbuf());
-
     ll t;
     cin >> t;
     while (t--)

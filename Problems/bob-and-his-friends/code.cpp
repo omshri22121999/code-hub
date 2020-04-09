@@ -8,8 +8,6 @@ int main(void)
     ofstream cout("output.txt");
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    std::cin.rdbuf(cin.rdbuf());
-    std::cout.rdbuf(cout.rdbuf());
 
     int t;
     ll n, a, b, c, F;

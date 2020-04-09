@@ -18,7 +18,16 @@ int main(void)
     cin >> t;
     while (t--)
     {
-        cout << t;
+        ll n;
+        ll k;
+        cin >> n;
+        ll ans = 0;
+        while (n--)
+        {
+            cin >> k;
+            ans = ans ^ k;
+        }
+        cout << 2 * ans << endl;
     }
     return 0;
 }

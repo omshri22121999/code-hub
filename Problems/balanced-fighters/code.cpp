@@ -116,8 +116,6 @@ int main(void)
 
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    std::cin.rdbuf(cin.rdbuf());
-    std::cout.rdbuf(cout.rdbuf());
 
     int t;
     FighterGraph fgraph;

@@ -1,21 +1,23 @@
 #include <bits/stdc++.h>
-#define ll long long
+#define N 1e9 + 7
+#define endl '\n'
+
 using namespace std;
+
+typedef long long ll;
 
 int main(void)
 {
-    ifstream cin("input.txt");
-    ofstream cout("output.txt");
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    std::cin.rdbuf(cin.rdbuf());
-    std::cout.rdbuf(cout.rdbuf());
+
+    ifstream cin("input.txt");
+    ofstream cout("output.txt");
 
     ll t;
     cin >> t;
     while (t--)
     {
-        cout << t;
     }
     return 0;
 }
