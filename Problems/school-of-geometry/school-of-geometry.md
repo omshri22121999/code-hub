@@ -34,5 +34,4 @@ For each test case, print a single line containing one integer ― the maximum v
 ```
 30
 30
-
 ```

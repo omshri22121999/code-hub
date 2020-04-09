@@ -18,37 +18,27 @@ int main(void)
     cin >> t;
     while (t--)
     {
-        ll n, m;
-        vector<ll> a, b;
-        ll sum = 0;
-        cin >> n;
-
+        ll n, k, x;
+        vector<ll> a;
+        cin >> n >> k;
         for (ll i = 0; i < n; i++)
         {
-            cin >> m;
-            a.push_back(m);
+            cin >> x;
+            a.push_back(x);
         }
         for (ll i = 0; i < n; i++)
         {
-            cin >> m;
-            b.push_back(m);
-        }
-        sort(a.begin(), a.end());
-        sort(b.begin(), b.end());
-
-        for (ll i = 0; i < n; i++)
-        {
-            if (a[i] >= b[i])
+            if (a[i] > k)
             {
-                sum += b[i];
+                cout << 0;
             }
             else
             {
-                sum += a[i];
+                k -= a[i];
+                cout << 1;
             }
         }
-
-        cout << sum << '\n';
+        cout << endl;
     }
     return 0;
 }
